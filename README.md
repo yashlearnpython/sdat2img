@@ -11,8 +11,8 @@ It currently supports Windows, Linux, MacOS & ARM architectures.
 
 ## How to convert brotli to dat
 ```
-$ sudo apt install brotli
-$ brotli --decompress system.new.dat.br -o system.new.dat
+sudo apt install brotli
+brotli --decompress system.new.dat.br -o system.new.dat
 ```
 
 
