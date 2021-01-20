@@ -34,6 +34,12 @@ This is a simple example on a Linux system:
 ~$ ./sdat2img.py system.transfer.list system.new.dat system.img
 ```
 
+## How to resize img
+```
+resize2fs -M system.img
+
+```
+
 
 
 ## OTAs
