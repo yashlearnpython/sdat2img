@@ -9,6 +9,13 @@ It currently supports Windows, Linux, MacOS & ARM architectures.
 
 **Note:** newer Google's [Brotli](https://github.com/google/brotli) format (`system.new.dat.br`) must be decompressed to a valid sparse data image before using `sdat2img` binary.
 
+## How to convert brotli to dat
+```
+$ sudo apt install brotli
+$ brotli --decompress system.new.dat.br -o system.new.dat
+```
+
+
 
 
 ## Usage
