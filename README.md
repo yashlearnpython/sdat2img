@@ -14,6 +14,10 @@ It currently supports Windows, Linux, MacOS & ARM architectures.
 sudo apt install brotli
 brotli --decompress system.new.dat.br -o system.new.dat
 ```
+## windows command
+```
+brotli.exe --decompress --in system.new.dat.br --out system.new.dat
+```
 
 
 
