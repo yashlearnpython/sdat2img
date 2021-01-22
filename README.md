@@ -34,8 +34,13 @@ sdat2img.py <transfer_list> <system_new_file> [system_img]
 
 ## Example
 This is a simple example on a Linux system: 
+## System
 ```
-~$ ./sdat2img.py system.transfer.list system.new.dat system.img
+./sdat2img.py system.transfer.list system.new.dat system.img
+```
+## vendor
+```
+./sdat2img.py vendor.transfer.list vendor.new.dat vendor.img
 ```
 
 ## How to resize img
