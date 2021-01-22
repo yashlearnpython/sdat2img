@@ -53,7 +53,7 @@ This is a simple example on a Linux system:
 ## How to resize img
 ```
 resize2fs -M system.img
-
+Note: Linux Only
 ```
 
 
