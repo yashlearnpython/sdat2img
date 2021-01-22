@@ -18,10 +18,12 @@ brotli --decompress system.new.dat.br -o system.new.dat
 ### System
 ```
 brotli.exe --decompress --in system.new.dat.br --out system.new.dat
+Note: Use cmd
 ```
 ### Vendor
 ```
 brotli.exe --decompress --in vendor.new.dat.br --out vendor.new.dat
+Note: Use cmd
 ```
 
 
