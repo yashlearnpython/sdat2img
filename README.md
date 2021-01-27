@@ -51,8 +51,9 @@ This is a simple example on a Linux system:
 ```
 
 ## How to resize img
-```
-resize2fs -M system.img
+```]
+1) e2fsck -f system.img
+2) resize2fs -M system.img
 Note: Linux Only
 ```
 
